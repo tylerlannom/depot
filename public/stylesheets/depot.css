@@ -1,5 +1,44 @@
 /* Global styles */
 
+#banner {
+  background: #9c9;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: #282;
+  text-align: center;
+}
+
+#banner img {
+  float: left;
+}
+
+#columns {
+  background: #141;	
+}
+
+#main {
+  margin-left: 17em;
+  padding-top: 4ex;
+  padding-left: 2em;
+  background: white;
+}
+
+#side {
+  float: left;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 16em;
+  background: #141;
+}
+
+#side a {
+  color: #bfb;
+  font-size: small;
+}
+
 #store #notice {
         color: #000;
         border: 2px solid red;
@@ -25,6 +64,7 @@
 #product_list table tr td {
         padding: 5px;
         vertical-align: top;
+        border: 1px solid black;
 }
 
 #product_list .list_image {
@@ -57,11 +97,11 @@
 }
 
 #product_list .list_line_even {
-  background:   #e0f8f8;
+  background:   #CCFFFF;
 }
 
 #product_list .list_line_odd {
-  background:   #f8b0f8;
+  background:   #99CCCC;
 }
 
 /* An entry in the store catalog */
