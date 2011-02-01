@@ -1,29 +1,5 @@
 /* Global styles */
 
-#cart, #cart table {
-	font-size: smaller;
-	color: white;
-}
-
-#cart table {
-	border-top: 1px dotted #595;
-	border-bottom: 1px dotted #595;
-	margin-bottom: 10px;
-}
-
-#store .cart_title {
-	font-size: 18px;
-}
-
-#store .item_price, #store .total_line {
-	text-align: right;
-}
-
-#store .total_line .total_cell {
-	font-weight: bold;
-	border-top: 1px solid #595;
-}
-
 #store .entry form, #store .entry form div {
 	display: inline;
 }
