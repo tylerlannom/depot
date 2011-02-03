@@ -24,6 +24,9 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
 gem 'will_paginate', '>= 3.0.pre'
+gem 'activemerchant', '~> 1.9.0'
+gem 'haml', '~> 3.0.18'
+gem 'jquery-rails', '~> 0.2.2'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
