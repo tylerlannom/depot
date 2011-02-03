@@ -19,10 +19,10 @@
 				<%= render @cart %>
 			<% end %>
 		<% end %>
-      <a href="http://www....">Home</a><br />
-      <a href="http://www....">Questions</a><br />
-      <a href="http://www....">News</a><br />
-      <a href="http://www....">Contact</a><br />
+      <a href="">Home</a><br />
+      <a href="">Questions</a><br />
+      <a href="">News</a><br />
+      <a href="">Contact</a><br />
     </div>
     <div id="main">
       <%= yield %>
